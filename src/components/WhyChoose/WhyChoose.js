@@ -5,7 +5,7 @@ const WhyChoose = () => {
         <div>
             <h1 className="m-4 pb-4 fw-bold text-center">Why <span className="text-info">Choose</span> Us</h1>
             <div className="" style={{ backgroundImage: `url("https://image.freepik.com/free-vector/travel-tourism-with-famous-world-landmarks-globe_117404-24.jpg")` }}>
-                <div className="d-flex justify-content-between m-4 text-center">
+                <div className="d-lg-flex justify-content-between m-4 text-center">
                     <div>
                         <i className="fas fa-map-signs fs-1"></i>
                         <h3 className="m-4 pb-4 fw-bold fs-4">Guided Tours</h3>

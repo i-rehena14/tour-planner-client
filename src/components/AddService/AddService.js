@@ -21,7 +21,7 @@ const AddService = () => {
                 <textarea className="w-50 mb-2" {...register("description")} placeholder="Description" />
                 <input className="w-50 mb-2" {...register("img")} placeholder="ImageUrl" />
                 <input className="w-50 mb-2" type="number" {...register("price")} placeholder="price" />
-                <input className="w-50 mb-2" type="submit" />
+                <input className="w-50 mb-2 bg-info border rounded" type="submit" />
             </form>
         </div>
     );

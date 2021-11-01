@@ -16,7 +16,7 @@ const Login = () => {
             })
     }
     return (
-        <div style={{ backgroundImage: `url("https://image.freepik.com/free-vector/topographic-contour-lines-map-seamless-pattern_1284-52862.jpg")`, height: '600px', width: '1300px' }}>
+        <div style={{ backgroundImage: `url("https://image.freepik.com/free-vector/topographic-contour-lines-map-seamless-pattern_1284-52862.jpg")`, height: '600px' }}>
             <div className="">
                 <div className="text-center">
                     <h3 className="text-center text-info p-4 fw-bold fs-1">Please login</h3>

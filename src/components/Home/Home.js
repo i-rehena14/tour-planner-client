@@ -4,6 +4,7 @@ import AboutUs from '../AboutUs/AboutUs';
 import Tour from '../Tour/Tour';
 import WhyChoose from '../WhyChoose/WhyChoose';
 import img from '../../images/back.jpg';
+import './Home.css';
 
 const Home = () => {
     const [tours, setTours] = useState([])
@@ -18,7 +19,7 @@ const Home = () => {
         <div>
             {/* <img src="https://image.freepik.com/free-photo/high-angle-passport-tickets-arrangement_23-2148786166.jpg" alt="" /> */}
 
-            <div className="p-4 " style={{ backgroundImage: `url("${img}")` }}>
+            <div className="p-4 banner" style={{ backgroundImage: `url("${img}")` }}>
                 <h1 className="p-4 m-4 text-white fw-bold fs-1">Discover the most engaging places</h1>
             </div>
             <div id="" className="m-4 pt-4">
