@@ -10,7 +10,7 @@ const Booking = () => {
 
     const [tour, setTour] = useState({});
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${tourId}`)
+        fetch(`https://cryptic-plains-40866.herokuapp.com/services/${tourId}`)
             .then(res => res.json())
             .then(data => setTour(data))
     }, []);
@@ -30,7 +30,7 @@ const Booking = () => {
         order.status = "pending";
         order.email = `${user.email}`;
         // console.log(order);
-        fetch('http://localhost:5000/addOrder', {
+        fetch('https://cryptic-plains-40866.herokuapp.com/addOrder', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(order)
