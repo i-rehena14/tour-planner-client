@@ -12,10 +12,10 @@ const Footer = () => {
                 <div>
                     {/* -------Follow----- */}
                     <h2>Follow Us </h2>
-                    <i class="m-4 fab fa-facebook"></i>
-                    <i class="m-4 fab fa-instagram"></i>
-                    <i class="m-4 fab fa-youtube"></i>
-                    <i class="m-4 fab fa-twitter"></i>
+                    <i className="m-4 fab fa-facebook"></i>
+                    <i className="m-4 fab fa-instagram"></i>
+                    <i className="m-4 fab fa-youtube"></i>
+                    <i className="m-4 fab fa-twitter"></i>
                 </div>
             </div>
             <p className="p-2">Copyright&copy;2021 TourPlan. All Rights Reserved.</p>
