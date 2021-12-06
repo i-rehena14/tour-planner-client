@@ -20,7 +20,11 @@ const Login = () => {
             <div className="">
                 <div className="text-center">
                     <h3 className="text-center text-info p-4 fw-bold fs-1">Please login</h3>
-                    <button onClick={handleGoogleLogin} className="btn btn-danger"><i className="p-2 fs-1 fw-bold fab fa-google"></i></button>
+                    <button onClick={handleGoogleLogin} className="btn btn-danger">
+                        <div className="d-flex">
+                            <i className="p-2 fs-1 fw-bold fab fa-google"></i><h3 className="pt-2">- Google Sign-In</h3>
+                        </div>
+                    </button>
                 </div>
             </div>
         </div>

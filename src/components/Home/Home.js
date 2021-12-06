@@ -3,7 +3,6 @@ import { Row } from 'react-bootstrap';
 import AboutUs from '../AboutUs/AboutUs';
 import Tour from '../Tour/Tour';
 import WhyChoose from '../WhyChoose/WhyChoose';
-import img from '../../images/back.jpg';
 import './Home.css';
 
 const Home = () => {
@@ -17,11 +16,18 @@ const Home = () => {
 
     return (
         <div>
-            {/* <img src="https://image.freepik.com/free-photo/high-angle-passport-tickets-arrangement_23-2148786166.jpg" alt="" /> */}
 
-            <div className="p-4 banner" style={{ backgroundImage: `url("${img}")` }}>
-                <h1 className="p-4 m-4 text-white fw-bold fs-1">Discover the most engaging places</h1>
+            <div className="banner">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-6">
+                            <h1 className="">Discover The Most Engaging Places</h1>
+                            <button className="rounded btn-info p-2 mt-2 text-white fw-bold">Discover More </button>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div id="" className="m-4 pt-4">
                 <h2 className="fs-1 fw-bold mt-5 text-center mb-4">Our Main <span className="text-info">Offers</span> </h2>
 
